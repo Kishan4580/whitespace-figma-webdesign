@@ -1,0 +1,33 @@
+/* Auto layout */
+.header-main-container {
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 5rem;
+  position: absolute;
+  top : 10em;
+  height: 100%;
+  max-width: 100%;
+}
+
+
+.mark{
+  /* Element */
+
+position: absolute;
+left: 11.45%;
+right: 0.12%;
+top: 23.67%;
+bottom: 62.41%;
+
+transform: matrix(1, -0.01, 0, 1, 0, 0);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+}

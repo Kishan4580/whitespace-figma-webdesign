@@ -14,7 +14,7 @@ export function Card ({plan, styles}){
             
             <ul className="plan text-black ">
                 <caption>{plan.caption}</caption>
-       { plan.features.map(feature => <li>{feature.content}</li> )}
+       { plan.features.map((feature, i) => <li key={i}>{feature.content}</li> )}
              </ul>
            </div>
            <Button className={`${!(isBgColorGiven) && "border-yellow-700" } ${isBgColorGiven ? "bg-[#4F9CF9]" : "transparent"}`}>Get Started</Button>

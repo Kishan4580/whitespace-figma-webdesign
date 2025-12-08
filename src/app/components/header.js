@@ -137,7 +137,7 @@ to your needs" content="Customise the app with plugins, custom themes and multip
                         <SecondContent heading={"Customize it to your needs"} btnContent={"Let's Go"} content={"Customise the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API."}>
                         </SecondContent>
                     </div>
-                    <Button>Let's Go</Button>
+                    <Button>Let&apos;s Go</Button>
                     <div className="flex flex-col items-center justify-center"> <SecondContent btnContent={"Let's Go"} heading={"Choose Your Plan"} content={"Whether you want to get organized, keep your personal life on track, or boost workplace productivity, Evernote has the right plan for you."}></SecondContent>
                     <Card plan={{title: "Free", price : 0, caption : "Capture ideas and find them quickly", features: ["Sync unlimited devices", "10 GB monthly uploads", "200 MB max. note size." ,"Customize Home dashboard and acsess extra widgets", "Connect primary Goole Calendar account", "Add due dates, reminders, and notifications to your tasks"]}} styles={{backgroundColor: "" }}/>
                     <Card plan={{title: "Personnal", price : 299, caption : "Capture ideas and find them quickly", features: ["Sync unlimited devices", "30 GB monthly uploads", "500 GB max. note size." ,"Customize Home dashboard and acsess extra widgets", "Connect primary Goole Calendar account", "Add due dates, reminders, and notifications to your tasks"]}} styles={{backgroundColor: "blue" }}/>
